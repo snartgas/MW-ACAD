@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Logo Mw Acad : forme moderne (livre / cap) - Remplacer ce fichier pour changer le logo -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2dd4bf"/>
+      <stop offset="100%" style="stop-color:#0d9488"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="30" width="80" height="60" rx="8" fill="none" stroke="url(#grad)" stroke-width="3"/>
+  <path d="M20 50 L100 50" stroke="url(#grad)" stroke-width="2"/>
+  <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#grad)">MA</text>
+</svg>

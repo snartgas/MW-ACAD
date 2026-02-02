@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="sombre">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mw Acad | Formations à Kinshasa – Python, Réseaux, Cybersécurité, Bureautique, Art oratoire</title>
+  <meta name="description" content="Mw Acad propose des formations pour étudiants et débutants : programmation Python, réseaux, cybersécurité, bureautique, informatique générale, art oratoire. Kinshasa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Bannière cookies -->
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Consentement cookies">
+    <div class="cookie-content">
+      <p>Nous utilisons des cookies pour améliorer votre expérience sur le site. En continuant, vous acceptez leur utilisation. <a href="pages/confidentialite.html">En savoir plus</a></p>
+      <div class="cookie-buttons">
+        <button id="cookie-accept" class="btn btn-primary">Accepter</button>
+        <button id="cookie-refuse" class="btn btn-secondary">Refuser</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <nav class="nav container">
+      <a href="#accueil" class="logo">
+        <!-- Remplacer images/logo.svg par votre propre logo -->
+        <img src="images/logo.svg" alt="" class="logo-img" width="40" height="40">
+        <span class="logo-text">Mw Acad</span>
+      </a>
+      <div class="nav-right">
+        <div class="theme-switcher" aria-label="Choisir le thème">
+          <button type="button" class="theme-btn active" data-theme="sombre" title="Thème sombre">Sombre</button>
+          <button type="button" class="theme-btn" data-theme="clair" title="Thème clair">Clair</button>
+        </div>
+        <button class="nav-toggle" aria-label="Ouvrir le menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#formations">Formations</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#faq">Inscriptions & FAQ</a></li>
+          <li><a href="#blog">Actualités</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <h1>On ne naît pas avec la connaissance, on l’acquiert</h1>
+        <p class="hero-text">Mw Acad vous propose des formations accessibles à Kinshasa et en ligne : programmation, réseaux, cybersécurité, bureautique et art oratoire. Tous les niveaux sont les bienvenus.</p>
+        <div class="hero-cta">
+          <a href="#formations" class="btn btn-primary">Voir les formations</a>
+          <a href="#contact" class="btn btn-secondary">Nous contacter</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="formations" class="formations">
+      <div class="container">
+        <h2>Nos formations</h2>
+        <p class="section-intro">Formations d’un mois renouvelable, en présentiel ou en ligne. Public : étudiants et débutants.</p>
+        <div class="formations-grid">
+          <article class="formation-card">
+            <!-- Image facile à modifier : remplacer le src ci-dessous (ex. images/formations/python.jpg) -->
+            <div class="formation-img-wrap">
+              <img src="images/formations/python.jfif" alt="Programmation Python" class="formation-img" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+              <div class="formation-img-placeholder">Python</div>
+            </div>
+            <div class="formation-body">
+              <h3>Programmation Python</h3>
+              <p>Découvrez la programmation avec Python : bases, logique et premiers projets. Idéal pour démarrer en développement.</p>
+              <div class="formation-prix formation-prix-isipa">
+                <span>Présentiel : 15 $</span>
+                <span>En ligne : 10 $</span>
+                <span>Présentiel et en ligne : 20 $</span>
+
+                <!-- AJOUTS PERSONNEL DE L'image du logo de notre établissement -->
+
+                <span class="formation-prix-note">
+                  <img src="images/isipa/logo-isipa.png" alt="Logo ISIPA" class="formation-prix-logo-isipa">
+                  Offre unique aux étudiants de l’ISIPA
+                </span>
+              </div>
+              <!-- Espace pour ajouter les modules plus tard -->
+              <div class="formation-modules" aria-label="Programme détaillé">
+                <!-- Ajoutez ici la liste des modules si besoin, par ex. :
+                <ul>
+                  <li>Module 1 : ...</li>
+                  <li>Module 2 : ...</li>
+                </ul>
+                -->
+              </div>
+              <a href="#contact" class="card-link">S’inscrire ou en savoir plus →</a>
+            </div>
+          </article>
+            <!-- Page reseaux infos -->
+          <article class="formation-card">
+            <div class="formation-img-wrap">
+              <img src="images/formations/rez.jfif" alt="Réseaux informatiques" class="formation-img" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+              <div class="formation-img-placeholder">Réseaux</div>
+            </div>
+            <div class="formation-body">
+              <h3>Réseaux informatiques</h3>
+              <p>Comprendre les bases des réseaux : protocoles, topologies, câblage et administration. Pour débutants.</p>
+              <div class="formation-prix formation-prix-contact">Tarifs : nous contacter</div>
+              <div class="formation-modules"></div>
+              <a href="#contact" class="card-link">Nous contacter →</a>
+            </div>
+          </article>
+
+            <!-- PAge de la cybersec-->
+          <article class="formation-card">
+            <div class="formation-img-wrap">
+              <img src="images/formations/cybersec.jfif" alt="Introduction à la cybersécurité" class="formation-img" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+              <div class="formation-img-placeholder">Cybersécurité</div>
+            </div>
+            <div class="formation-body">
+              <h3>Introduction à la cybersécurité</h3>
+              <p>Notions essentielles : menaces, bonnes pratiques, sécurisation des données et de l’environnement numérique.</p>
+              <div class="formation-prix formation-prix-contact">Tarifs : nous contacter</div>
+              <div class="formation-modules"></div>
+              <a href="#contact" class="card-link">Nous contacter →</a>
+            </div>
+          </article>
+
+            <!-- PAge bureautique -->
+          <article class="formation-card">
+            <div class="formation-img-wrap">
+              <img src="images/formations/office.jfif" alt="Bureautique" class="formation-img" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+              <div class="formation-img-placeholder">Bureautique</div>
+            </div>
+            <div class="formation-body">
+              <h3>Bureautique (Word, Excel, PowerPoint)</h3>
+              <p>Maîtrisez les outils Office : rédaction, tableaux, formules, présentations. Indispensable en études et en entreprise.</p>
+              <div class="formation-prix formation-prix-contact">Tarifs : nous contacter</div>
+              <div class="formation-modules"></div>
+              <a href="#contact" class="card-link">Nous contacter →</a>
+            </div>
+          </article>
+
+            <!-- PAge info gnrale -->
+          <article class="formation-card">
+            <div class="formation-img-wrap">
+              <img src="images/formations/infogen.jfif" alt="Informatique générale" class="formation-img" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+              <div class="formation-img-placeholder">Informatique</div>
+            </div>
+            <div class="formation-body">
+              <h3>Informatique générale</h3>
+              <p>Bases de l’informatique : système d’exploitation, fichiers, internet, sécurité au quotidien. Pour tous les niveaux.</p>
+              <div class="formation-prix formation-prix-contact">Tarifs : nous contacter</div>
+              <div class="formation-modules"></div>
+              <a href="#contact" class="card-link">Nous contacter →</a>
+            </div>
+          </article>
+            <!-- PAge de l'art oratoire -->
+          <article class="formation-card">
+            <div class="formation-img-wrap">
+              <img src="images/formations/artoratoire.jfif" alt="Art oratoire et éloquence" class="formation-img" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+              <div class="formation-img-placeholder">Éloquence</div>
+            </div>
+            <div class="formation-body">
+              <h3>Art oratoire & éloquence</h3>
+              <p>Prenez la parole avec aisance : structure du discours, voix, gestuelle et confiance en public.</p>
+              <div class="formation-prix formation-prix-contact">Tarifs : nous contacter</div>
+              <div class="formation-modules"></div>
+              <a href="#contact" class="card-link">Nous contacter →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="apropos" class="apropos">
+      <div class="apropos-bandeau">
+        <img src="images/isipa/batiment-isipa.png" alt="Bâtiment de l'ISIPA à Kinshasa" class="apropos-bandeau-img">
+        <div class="apropos-bandeau-overlay"></div>
+        <p class="apropos-bandeau-text">Notre établissement · ISIPA · Kinshasa</p>
+      </div>
+      <div class="container">
+        <h2>À propos</h2>
+        <div class="apropos-content">
+            <!-- AJOut de ma photo dans cette feuille html -->
+          <figure class="profile-figure">
+            <img src="images/isipa/prof.jpg" class="profile-photo">
+          </figure>
+          <p>Je suis <strong>Mwima Mupila GASPARD</strong>, étudiant à l’Institut Supérieur de l’Informatique, de la Programmation et de l’Analyse (<strong>ISIPA</strong>), passionné par l’informatique et la tech en général, et par la cybersécurité et les réseaux informatiques en particulier. Je suis l’auteur de l’idée <strong>Mw Acad</strong>, qui propose des formations dans différents domaines : de la tech à l’art oratoire, en passant par la bureautique.</p>
+          <p>Entouré de jeunes passionnés, nous avons une ambition grandiose : rendre la connaissance accessible et permettre à chacun de monter en compétence, quel que soit son niveau. Nous croyons que la formation est la clé de l’autonomie professionnelle et de l’innovation.</p>
+          <p>C’est pourquoi Mw Acad s’adresse en priorité aux étudiants et aux débutants désireux d’acquérir des bases solides — en programmation, en réseaux, en cybersécurité, en bureautique ou en expression orale. Nos formations se déroulent à Kinshasa (présentiel) ou en ligne, sur une durée d’un mois renouvelable, à adapter selon vos objectifs.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq">
+      <div class="container">
+        <h2>Inscriptions & questions fréquentes</h2>
+        <p class="section-intro">Comment s’inscrire, tarifs, modalités. Si votre question n’est pas ici, contactez-nous.</p>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Comment s’inscrire à une formation ?</summary>
+            <p>Envoyez-nous un message via le formulaire de contact ou par email (mupilagaspard1@gmail.com) en indiquant la formation qui vous intéresse, le format (présentiel ou en ligne) et vos disponibilités. Nous vous recontacterons pour finaliser l’inscription.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Quelle est la durée des formations ?</summary>
+            <p>La durée de base est d’un mois, renouvelable. Elle peut être adaptée selon vos besoins et votre rythme — à discuter ensemble.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Présentiel ou en ligne ?</summary>
+            <p>Les deux sont possibles. À Kinshasa, les cours peuvent se faire en présentiel. Nous proposons aussi un suivi en ligne (visio) pour les personnes à distance.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Faut-il des prérequis ?</summary>
+            <p>Non. Tous les niveaux sont les bienvenus, notamment les débutants et les étudiants.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Comment connaître les tarifs des formations ?</summary>
+            <p>Contactez-nous par formulaire ou par email pour obtenir les tarifs et les modalités de la formation qui vous intéresse.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="blog">
+      <div class="container">
+        <h2>Actualités & blog</h2>
+        <p class="section-intro">Prochaines sessions, nouveautés et articles. Consultez cette section pour rester informé.</p>
+        <div class="blog-grid">
+          <!-- Exemple d’article : dupliquer le bloc pour ajouter d’autres actualités -->
+          <article class="blog-card">
+            <div class="blog-card-img-wrap">
+              <img src="images/blog/actus.jpg" alt="" class="blog-card-img" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+              <div class="formation-img-placeholder">Actualité</div>
+            </div>
+            <div class="blog-card-body">
+              <time datetime="2025-01-01">28 janvier 2026</time>
+              <h3>Lancement du demotech 9ieme edition</h3>
+              <p>Lancement officiel de la 9ᵉ édition du concours Demotech
+Ce Mercredi 28 janvier à Kinshasa, le Centre de compétence de l’ISIPA a accueilli la cérémonie de lancement de la 9ᵉ édition de Demotech, un concours dédié à la promotion de l’innovation technologique, placé sous le thème Minetech.
+
+Cette édition met en lumière des solutions innovantes à fort impact, portées par de jeunes talents issus des institutions et universités. Plusieurs partenaires et acteurs du secteur, dont le PDG de l’ISIPA, Martin Ekanda Odimba, ont pris part à cette cérémonie.
+
+Institutions, universités et étudiants sont invités à inscrire leurs projets et à rejoindre cette dynamique d’innovation.
+
+Une cagnotte de 10.000$ pour l'équipe gagnante, et l'accompagnement jusqu'à la création de l'entreprise.
+.</p>
+              <a href="#" class="card-link">Lire la suite →</a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-card-img-wrap">
+              <img src="images/blog/actus2.jpg" alt="" class="blog-card-img" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+              <div class="formation-img-placeholder">Actualité</div>
+            </div>
+            <div class="blog-card-body">
+              <time datetime="2025-01-01">02 Fevrier 2026</time>
+              <h3>Debut de la formation Python</h3>
+              <p>MW Acad va commencer ses activités de formation dans le langage Python ce lundi 02 fevrier 2026
+                Toute personne souhaitant se joindre à la formation est prier à bien consulter nos catalogue sur notre site.
+
+              </p>
+              <a href="#" class="card-link">Nous rejoindre →</a>
+            </div>
+          </article>
+          <!-- Fin exemple - Ajoutez d’autres articles ici -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="section-intro">Une question, une inscription ? Écrivez-nous ou appelez-nous.</p>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p><strong>Mw Acad</strong></p>
+            <p>Kinshasa</p>
+            <p><a href="mailto:mupilagaspard1@gmail.com">mupilagaspard1@gmail.com</a></p>
+            <p><a href="tel:+243900042963">+243 900 042 963</a></p>
+            <div class="social-links">
+              <!-- Remplissez les href avec vos liens (LinkedIn, Facebook, etc.) -->
+              <a href="https://www.instagram.com/mwima_mupila14?igsh=ZDMzZ3ZkNzI0OG01" class="social-link" aria-label="Réseau social 1" title="À compléter">Intagramm</a>
+              <a href="https://www.facebook.com/GaspardMwimaMupilaSn" class="social-link" aria-label="Réseau social 2" title="À compléter">Facebook</a>
+              <!-- <a href="#" class="social-link" aria-label="Réseau social 3" title="À compléter">Réseau 3</a> -->
+            </div>
+          </div>
+          <form class="contact-form" action="https://formspree.io/f/xzdvrvad" method="POST">
+            <div class="form-row">
+              <label for="nom">Nom</label>
+              <input type="text" id="nom" name="nom" required placeholder="Votre nom">
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="votre@email.com">
+            </div>
+            <div class="form-row">
+              <label for="telephone">Téléphone</label>
+              <input type="tel" id="telephone" name="telephone" placeholder="+243 ...">
+            </div>
+            <div class="form-row">
+            <label>Formation concernée</label>
+            <div class="chek">
+              <fieldset id="formations-checkboxes" aria-describedby="formation-help" >
+                <legend class="sr-only">Formation concernée</legend>
+                <div class="checkbox-row">
+                  <input type="checkbox" id="f-python" name="formation[]" value="python">
+                  <label for="f-python">Programmation Python</label>
+                </div>
+                <div class="checkbox-row">
+                  <input type="checkbox" id="f-reseaux" name="formation[]" value="reseaux">
+                  <label for="f-reseaux">Réseaux informatiques</label>
+                </div>
+                <div class="checkbox-row">
+                  <input type="checkbox" id="f-cyber" name="formation[]" value="cybersecurite">
+                  <label for="f-cyber">Introduction à la cybersécurité</label>
+                </div>
+                <div class="checkbox-row">
+                  <input type="checkbox" id="f-bureautique" name="formation[]" value="bureautique">
+                  <label for="f-bureautique">Bureautique</label>
+                </div>
+                <div class="checkbox-row">
+                  <input type="checkbox" id="f-infogen" name="formation[]" value="informatique-generale">
+                  <label for="f-infogen">Informatique générale</label>
+                </div>
+                <div class="checkbox-row">
+                  <input type="checkbox" id="f-art" name="formation[]" value="art-oratoire">
+                  <label for="f-art">Art oratoire & éloquence</label>
+                </div>
+              </fieldset>
+            </div>
+              <div id="formation-help" class="form-help"></div>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Votre message, question ou demande d'inscription..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Mw Acad · Kinshasa</p>
+      <p class="footer-legal">
+        <a href="pages/mentions-legales.html">Mentions légales</a> ·
+        <a href="pages/confidentialite.html">Politique de confidentialité</a>
+      </p>
+      <p class="footer-copy">© 2025 Mw Acad. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
